@@ -6,18 +6,17 @@ This project implements a machine learning pipeline for Predictive Maintenance u
 
 Predictive maintenance is a technique that uses condition-monitoring tools and machine learning to track the performance of equipment during operation. This allows for timely maintenance to prevent unexpected failures. In this project, we use the **XGBoost** algorithm to classify whether a machine is likely to fail based on its sensor data and usage profile.
 
-## 📊 Dataset
-
-The dataset used is the [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset) from the UCI Machine Learning Repository.
-
 ### Features include:
 
 - `UDI`, `Product ID` (identifiers)
 - `Type` (product type: L, M, H)
-- `Air temperature`, `Process temperature`
-- `Rotational speed`, `Torque`, `Tool wear`
-- Binary failure types: `TWF`, `HDF`, `PWF`, `OSF`, `RNF`
-- `Machine failure` (target label)
+- `Air temperature [K]`
+- `Process temperature [K]`
+- `Rotational speed [rpm]`
+- `Torque [Nm]`
+- `Tool wear [min]`
+- `Target` (binary: 1 = failure, 0 = no failure)
+- `Failure Type` (textual label such as "No Failure", "Tool Wear Failure", etc.)
 
 ## 📁 Project Structure
 
