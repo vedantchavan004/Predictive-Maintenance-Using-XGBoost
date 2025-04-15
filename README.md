@@ -27,7 +27,6 @@ Predictive-Maintenance-Using-XGBoost/
 ├── predictive_maintenance.csv   # Input dataset
 ├── confusion_mtx.png            # Confusion matrix (saved after training)
 ├── feature_imp.png              # Feature importance chart
-├── requirements.txt             # List of dependencies
 └── README.md                    # Project documentation
 ```
 
@@ -41,12 +40,6 @@ cd Predictive-Maintenance-Using-XGBoost
 ```
 
 2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-If `requirements.txt` is missing, manually install:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost
