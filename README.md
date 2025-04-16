@@ -85,9 +85,10 @@ These plots help visualize which features most influenced the model and how well
 
 ### Confusion Matrix after removing failure type
 
-![confusion_mtx](https://github.com/user-attachments/assets/a2578fbc-ea4e-40da-9f33-351a2784ef9c)
+![confusion_mtx_no_failure](https://github.com/user-attachments/assets/b877ff50-d68e-44ab-860f-a4cd253277e7)
 
 ### Feature Importance after removing failure type
 
-![feature_imp](https://github.com/user-attachments/assets/1a95b795-789b-4819-a827-044afba0a4c1)
+![feature_imp_no_failure](https://github.com/user-attachments/assets/0682cfa2-79b1-425d-8ff0-3d31624dda69)
+
 
