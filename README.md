@@ -83,3 +83,11 @@ The model is evaluated using:
 
 These plots help visualize which features most influenced the model and how well it performed on unseen data.
 
+### Confusion Matrix after removing failure type
+
+![confusion_mtx](https://github.com/user-attachments/assets/a2578fbc-ea4e-40da-9f33-351a2784ef9c)
+
+### Feature Importance after removing failure type
+
+![feature_imp](https://github.com/user-attachments/assets/1a95b795-789b-4819-a827-044afba0a4c1)
+
